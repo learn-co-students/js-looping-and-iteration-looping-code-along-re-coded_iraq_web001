@@ -1,12 +1,12 @@
 function writeCards(names, eventName){
   let msg=[];
   for(let a=0;a<names.length;a++){
-    msg[a] = "thank you, " +names[a]+ ", for the wonderful " +eventName+ " gift!"
+    msg[a] = "Thank you, " +names[a]+ ", for the wonderful " +eventName+ " gift!"
   }
   return msg;
 }
 
-writeCards(["Ada", "Brendan", "Ali"], "birthday");
+writeCards(["Lisa", "Kaitlin", "Jan"], "surprise");
 
 function countDown(positiveInt){
   while(positiveInt>=0){

@@ -1,27 +1,26 @@
 
 
-function writeCards(cards,gifts) {
-  const array = [];
-  for (let i = 0; i < cards.length; i++) {
-    array.push(`Thanks, ${cards[i]}, for the wonderful ${gifts}your gift!`);
+
+// // Code your solutions in this file
+function writeCards(names , eventNames){
+  let newArr = []
+  for(let i=0; i<names.length;i++){
+    newArr.push(`Thank you, ${names[i]}, for the wonderful ${eventNames}your gift!`);
   }
-
-  return array;
+  return newArr;
 }
 
-writeCards([ 'Lisa', 'Kaitlin', 'Jan' ], 'surprise');
+writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 
 
-function countDown(num) {
-while(num >= 0){
-  console.log(num);
-  num--;
+
+function countDown(num){
+  
+  while(num>=0){
+    console.log(num);
+    num --;
+  }
 }
-
-}
-
 
 countDown(10);
-
-
